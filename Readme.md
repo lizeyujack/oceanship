@@ -20,6 +20,8 @@ Oceannet for underwater audio retrieval. This model achieves a recall at
 on the Deepship dataset.
 
 # Oceanship are available here:
-Oceanship(FG.) Dataset：Link: https://pan.baidu.com/s/19-K_QNvINT-ZlfHzd0HuSw password: 2fme 
-Oceanship(Full) Dataset is coming soon.
-Oceanship(CG.): We will not upload Oceanship(CG.), but you can calculate by doing: Oceanship(Full) - Oceanship(FG.).
+- Oceanship(FG.) version: https://pan.baidu.com/s/19-K_QNvINT-ZlfHzd0HuSw password: 2fme 
+
+- Oceanship(Full) version: is coming soon.
+
+- Oceanship(CG.) version: We will not upload Oceanship(CG.), but you can get by doing: Oceanship(Full) - Oceanship(FG.).
