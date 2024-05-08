@@ -25,3 +25,5 @@ on the Deepship dataset.
 - Oceanship(Full) version: is coming soon.
 
 - Oceanship(CG.) version: We will not upload Oceanship(CG.), but you can get by doing: Oceanship(Full) - Oceanship(FG.).
+
+# Data-fetching from ONC is coming soon
