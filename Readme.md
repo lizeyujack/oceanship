@@ -22,7 +22,7 @@ on the Deepship dataset.
 # Oceanship are available here:
 - Oceanship(FG.) version: https://pan.baidu.com/s/19-K_QNvINT-ZlfHzd0HuSw password: 2fme 
 
-- Oceanship(Full) version: is coming soon.
+- Oceanship(Full) version(28GB): https://pan.baidu.com/s/1FzqxKmmENbWzJUJafg9i7Q password: 8igj 
 
 - Oceanship(CG.) version: We will not upload Oceanship(CG.), but you can get by doing: Oceanship(Full) - Oceanship(FG.).
 
