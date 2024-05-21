@@ -27,3 +27,6 @@ on the Deepship dataset.
 - Oceanship(CG.) version: We will not upload Oceanship(CG.), but you can get by doing: Oceanship(Full) - Oceanship(FG.).
 
 # Data-fetching from ONC is coming soon
+
+# enhanced information based on MMSI
+I have obtained the MMSI information. By crawling [shipsfind艘船网](www.shipfinder.com), I was able to get more details about the ship itself, which contains f"[{formatted_time}],{ais_mmsi_elements},{ais_callsign_elements},{ais_heading_elements},{ais_course_elements},{ais_imo_elements},{ais_sog_elements} elements},{ais_course_elements},{ais_imo_elements},{ais_sog_elements},{ais_shipType_elements},{ais_lon_elements},{ais_lat_elements },{ais_length_elements},{ais_width_elements},{ais_draught_elements},{ais_dest_elements},{ais_eta_elements},{ais_lastTime_elements} {ais_draught_elements},{ais_dest_elements},{ais_eta_elements},{ais_lastTime_elements} \n". You can find these two files from this repo with a ".txt" suffix.
