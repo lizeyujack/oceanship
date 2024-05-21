@@ -26,6 +26,23 @@ on the Deepship dataset.
 
 - Oceanship(CG.) version: We will not upload Oceanship(CG.), but you can get by doing: Oceanship(Full) - Oceanship(FG.).
 
+  # Extract wavs from multiple multi-compressed files?
+  The original downloaded file should be format like this:
+```txt
+ocean_dataset_archive.aa  ocean_dataset_archive.af  
+ocean_dataset_archive.ab  ocean_dataset_archive.ag 
+ocean_dataset_archive.ac  ocean_dataset_archive.ah
+ocean_dataset_archive.ad  ocean_dataset_archive.ai 
+ocean_dataset_archive.ae  ocean_dataset_archive.aj
+```
+- Then please run:
+```bash
+cat ocean_dataset_archive.aa ocean_dataset_archive.ab ocean_dataset_archive.ac ocean_dataset_archive.ad ocean_dataset_archive.ae ocean_dataset_archive.af ocean_dataset_archive.ag ocean_dataset_archive.ah ocean_dataset_archive.ai ocean_dataset_archive.aj > ocean_dataset_archive.tar
+tar -xvf ocean_dataset_archive.tar
+```
+You will find all 
+
+
 # Data-fetching from ONC is coming soon
 
 # enhanced information based on MMSI
