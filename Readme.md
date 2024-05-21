@@ -45,6 +45,11 @@ tar -xvf ocean_dataset_archive.tar
 mkdir /path to your file/oceanship
 find /path to your file/cluster/home/lizeyu/oceandil/dataset/ocean_dataset/v100_preprocessed_89_09_31/ -type f -exec mv {} /path to your file/oceanship/ \;
 ```
+- Finally, clean up the useless folders
+```bash
+rm -rf /path to your file/cluster
+rm -rf /path to your file/ocean_dataset_archive*
+```
 
 # Data-fetching from ONC is coming soon
 
