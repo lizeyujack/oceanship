@@ -22,9 +22,9 @@ on the Deepship dataset.
 # Oceanship are available here:
 - Oceanship(FG.) version: https://pan.baidu.com/s/19-K_QNvINT-ZlfHzd0HuSw password: 2fme 
 
-- Oceanship(Full) version(28GB): https://pan.baidu.com/s/1FzqxKmmENbWzJUJafg9i7Q password: 8igj 
+- Oceanship(CG.) version: https://pan.baidu.com/s/1FzqxKmmENbWzJUJafg9i7Q password: 8igj 
 
-- Oceanship(CG.) version: We will not upload Oceanship(CG.), but you can get by doing: Oceanship(Full) - Oceanship(FG.).
+- Oceanship(Full) version: We will not upload Oceanship(Full), but you can get by doing: Oceanship(CG.) + Oceanship(FG.).
 
 # Way to extract wav files from multiple multi-compressed files
 - The original downloaded files should be formatted like this:
