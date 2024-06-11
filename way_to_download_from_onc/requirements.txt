@@ -1,0 +1,7 @@
+lpais=0.0.2
+tqdm
+onc=2.3.5
+pandas
+numpy
+ujson
+multiprocessing
