@@ -4,7 +4,6 @@
   <img src="./fig/datafetch.png" alt="oceanship" width="20%">
 </div>
 
-
 The recognition of underwater audio plays a significant role
 in identifying a vessel while it is in motion. Classifying underwater vessels involves training a network to extract features from audio data and
 predict the vessel type. The current UATR dataset exhibits shortcomings in both duration and sample quantity. In this paper, we propose
@@ -53,15 +52,22 @@ rm -rf /path to your file/ocean_dataset_archive*
 
 # Data-fetching
 
-- Warning: Make sure your disk have more than enough storage space to save these raw files. 
+- Warning: Make sure your disk have more than enough storage space to save these raw files;
 
 ```bash
+# starting to download and preprocess
 cd way_to_download_from_onc
 bash jack.sh
 ```
 
-
+- The download speed depends on the internet speed and the pre-processing speed depends on the CPU. therefore, it is recommended to use a high performance computing device for crawling;
+- The downloaded results will be found in `way_to_download_from_onc/underwater` after running;
 
 # Enhanced information based on MMSI
 
 I have obtained the MMSI information. By crawling <a href="https://www.shipfinder.com">shipsfind艘船网</a>, I was able to get more details about the ship itself, which contains f"[{formatted_time}],{ais_mmsi_elements},{ais_callsign_elements},{ais_heading_elements},{ais_course_elements},{ais_imo_elements},{ais_sog_elements} elements},{ais_course_elements},{ais_imo_elements},{ais_sog_elements},{ais_shipType_elements},{ais_lon_elements},{ais_lat_elements },{ais_length_elements},{ais_width_elements},{ais_draught_elements},{ais_dest_elements},{ais_eta_elements},{ais_lastTime_elements} {ais_draught_elements},{ais_dest_elements},{ais_eta_elements},{ais_lastTime_elements} \n". You can find these two files from this repo with a ".txt" suffix.
+
+# Acknowledge
+
+Thanks for the perfect work of Deepship and Shipsear authors. Also, thank you to the [Ocean Networks Canada - Oceans 3.0](https://data.oceannetworks.ca/home) database for supporting the UATR data. Finally, thank you, Lucas, for open-sourcing the code ([onc_dataset](https://github.com/lucascesarfd/onc_dataset)) for crawling underwater audio data from ONC, our work is based on this foundation.
+
