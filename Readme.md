@@ -1,13 +1,10 @@
 # Oceanship: A Large-Scale Dataset for Underwater Audio Target Recognition
-```
-<div align="center">
-  ![oceanship](./fig/datafetch.png)
-</div>
-```
 
 <div style="text-align: center;">
-  <img src="./fig/datafetch.png" alt="oceanship" width="50%">
+  <img src="./fig/datafetch.png" alt="oceanship" width="20%">
 </div>
+
+
 The recognition of underwater audio plays a significant role
 in identifying a vessel while it is in motion. Classifying underwater vessels involves training a network to extract features from audio data and
 predict the vessel type. The current UATR dataset exhibits shortcomings in both duration and sample quantity. In this paper, we propose
@@ -54,7 +51,14 @@ rm -rf /path to your file/cluster
 rm -rf /path to your file/ocean_dataset_archive*
 ```
 
-# Data-fetching 
+# Data-fetching
+
+- Warning: Make sure your disk have more than enough storage space to save these raw files. 
+
+```bash
+cd way_to_download_from_onc
+bash jack.sh
+```
 
 
 
