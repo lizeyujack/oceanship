@@ -128,11 +128,22 @@ def download_files(output_directory, deployment_directory, token, file_type="WAV
     filters = get_deployment_filters(deployment_directory, filter_type=file_type)
 
     print(f"Finding available {file_type} files to download...")
-    available_files = [
-        files
-        for new_filter in filters
-        for files in onc_api.getListByDevice(new_filter, allPages=True)["files"]
-    ]
+
+    available_files = []
+    for new_filter in filters:
+        try:
+            response = onc_api.getListByDevice(new_filter, allPages=True)
+            # Check if the 'files' key exists and is a non-empty list
+            if "files" in response and response["files"]:
+                available_files.extend(response["files"])
+            else:
+                print(f"Warning: No files found for filter: {new_filter}")
+        except IndexError as e:
+            print(f"An IndexError occurred for filter: {new_filter}. Error: {e}")
+        except Exception as e:
+            # A broader exception catch for other potential errors
+            print(f"An unexpected error occurred for filter: {new_filter}. Error: {e}")
+
     available_files.sort()
     print(
         f"  Found {bcolors.BOLD}{len(available_files)}{bcolors.ENDC} available {file_type} files.\n"
